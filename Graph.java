@@ -4,8 +4,6 @@ import java.util.List;
 
 public class Graph {
 
-	// Hejtest
-	
 	private ArrayList<LinkedList<Vertex>> graph;
 	private Comparator<Path> path_Comp = new PathComparator();
 	private PriorityQueue<Path> path_pq = new PriorityQueue<Path>(path_Comp);
